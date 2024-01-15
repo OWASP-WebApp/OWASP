@@ -1,0 +1,135 @@
+body{
+    font-family: 'Futura', sans-serif;
+}
+
+#title{
+    position: absolute;
+    left: 450px;
+    font-size: 60px;
+    
+    
+}
+
+#backg{
+
+    position: absolute;
+    left: 250px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    height: 700px;
+    width: 900px;
+}
+
+#fname{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+#fullname{
+
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+
+}
+
+#uname{
+    position: absolute;
+    left: 50px;
+    top: 140px;
+}
+
+#username{
+
+    position: absolute;
+    left: 40px;
+    top: 190px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+
+}
+
+#passwd{
+    position: absolute;
+    left: 50px;
+    top: 280px;
+}
+
+#cpassword{
+
+    position: absolute;
+    left: 40px;
+    top: 330px;
+    padding: 10px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+
+}
+
+#password{
+
+    position: absolute;
+    left: 40px;
+    top: 380px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+
+}
+
+#sub{
+
+    position: absolute;
+    left: 400px;
+    top: 540px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+}
+}

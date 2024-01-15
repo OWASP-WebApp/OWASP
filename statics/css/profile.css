@@ -1,0 +1,125 @@
+body{
+    font-family: 'Futura', sans-serif;
+}
+
+#ppic{
+    position: absolute;
+    left: 608px;
+    border-radius: 600px;
+    height: 220px;
+    width: 220px;
+}
+#ordertitle{
+    position: absolute;
+    left: 210px;
+    top: 340px;
+}
+
+#menu{
+    position: absolute;
+    left: 1100px;
+    top: 50px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+}
+}
+
+#settingbtn{
+    position: absolute;
+    left: 1100px;
+    top: 140px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+}
+
+
+
+
+
+}
+
+#main-page{
+
+    position: absolute;
+    left: 1100px;
+    top: 95px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+}
+
+}
+
+#logout{
+
+    position: absolute;
+    left: 1100px;
+    top: 185px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+}
+
+}
+
+
+table, tr{
+    
+    
+    width: 1000px;
+   
+}
+
+table{
+
+    text-align: left;
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#sum{
+    position: absolute;
+    left: 1110px;
+    top: 340px;
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/statics/css/styel.css">
+    <title>OWASP-SHOP</title>
+</head>
+<body>
+    <center>
+    <div class="custom-box">
+        <h1>OWASP store</h1>
+    </div>
+    </center>  
+
+    <h4>What are you looking for?</h4>
+    <div>
+        <center>
+        <input id="search" placeholder="Search..." type="text"> <br>
+        <button id="sbtn">Search</button>
+        </center>
+    </div>
+
+    <div class="login-signup">
+        <button id="login" onclick="document.location = '/login.html'">Login</button>
+        <button id="signup" onclick="document.location = '/signup.html'">Signup</button>
+    </div>
+
+    <div class="products">
+        <br><br><br>
+        
+        <div id="pd1"><br>
+            <img src="/statics/images/1.png" style="border-radius: 10px;">
+            <h4>Nike</h4>
+            <p>
+                Price: $200<br>
+                Color: Blue, Red and orange
+            </p>
+            <br>
+            <button id="pd1b" onclick="document.location = '/cart.html?productId=1'">Buy</button>
+        </div>
+
+        <div id="pd2"><br>
+            <img src="/statics/images/2.jpg" style="border-radius: 10px;">
+            <h4>Adidas</h4>
+            <p>
+                Price: $420<br>
+                Color: Blue, Red and orange
+            </p>
+            <br>
+            <button id="pd2b" onclick="document.location = '/cart.html?productId=2'">Buy</button>
+        </div>
+
+        <div id="pd3"><br>
+            <img src="/statics/images/3.png" style="border-radius: 10px;">
+            <h4>Poma</h4>
+            <p>
+                Price: $120<br>
+                Color: Blue, Red and orange
+            </p>
+            <br>
+            <button id="pd3b" onclick="document.location = '/cart.html?productId=3'">Buy</button>
+        </div>
+
+        <div id="pd4"><br>
+            <img src="/statics/images/4.png" style="border-radius: 10px;">
+            <h4>Chita</h4>
+            <p>
+                Price: $690<br>
+                Color: Blue, Red and orange
+            </p>
+            <br>
+            <button id="pd4b" onclick="document.location = '/cart.html?productId=4'">Buy</button>
+        </div>
+
+        <div id="pd5"><br>
+            <img src="/statics/images/5.jpg" style="border-radius: 10px;">
+            <h4>Asics</h4>
+            <p>
+                Price: $238<br>
+                Color: Blue, Red and orange
+            </p>
+            <br>
+            <button id="pd5b" onclick="document.location = '/cart.html?productId=5'">Buy</button>
+        </div>
+
+        <div id="pd6"><br>
+            <img src="/statics/images/6.jpg" style="border-radius: 10px;">
+            <h4>Fila</h4>
+            <p>
+                Price: $500<br>
+                Color: Blue, Red and orange
+            </p>
+            <br>
+            <button id="pd6b" onclick="document.location = '/cart.html?productId=6'">Buy</button>
+        </div>
+
+    </div>
+
+
+    <div class="contact-us">
+        <h1 id="ctitle">Contact us!</h1>
+        <h2>Fill free and ask what everything you want and give feedback</h2>
+        <form action="/thanku.html" method="post"></form>
+            <input id="cusername" type="text" placeholder="Username">
+            <textarea id="ctext" placeholder="Your text..."></textarea>
+            <button id="csubmit">Send</button>
+    </div>
+
+    <script src="statics/js/events.js"></script>
+    <div id="temp"></div>
+
+
+
+</body>
+
+</html>

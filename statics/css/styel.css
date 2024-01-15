@@ -1,0 +1,379 @@
+body{
+    font-family: 'Futura', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+.custom-box {
+
+    width:400px;
+    height: 60px;
+    border: 2px solid #333; 
+    padding: 1px; 
+    margin: 20px; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;   
+    line-height: 0.65em
+}
+
+.custom-box:hover{
+    box-shadow: 5px 5px 10px #888888;
+}
+
+#search{
+    border-radius: 10px;
+    height: 10px;
+    width: 400px;
+    outline: none;
+    border-color: black;
+    border-style:solid;
+    transition: all 0.3s ease;  
+    padding: 10px;
+    &:hover{
+        background-color: rgb(160, 255, 250);
+    }
+}
+
+#sbtn{
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    position: absolute;
+    left: 690px;
+    top: 190px;
+    border-color: black;
+    transition: box-shadow 0.3s ease;   
+}
+
+#sbtn:hover{
+    box-shadow: 1px 5px 5px #888888;
+    cursor: pointer;
+}
+
+#pd1{
+
+    text-align: center;
+    width: 400px; 
+    height: 500px;
+    border: 2px solid #333; 
+    padding: 1px; 
+    margin: 40px; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;  
+}
+
+#pd1:hover{
+    box-shadow: 10px 5px 20px #888888;
+}
+
+#pd2{
+    position: absolute;
+    top:-212px;
+    text-align: center;
+    width: 400px; 
+    height: 500px;
+    border: 2px solid #333; 
+    padding: 1px; 
+    margin: 500px; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;  
+}
+
+#pd2:hover{
+    box-shadow: 10px 5px 20px #888888;
+}
+
+#pd3{
+    position: absolute;
+    top:-502px;
+    left: 175px;
+    text-align: center;
+    width: 400px; 
+    height: 500px;
+    border: 2px solid #333; 
+    padding: 1px; 
+    margin: 790px; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;  
+    
+}
+
+#pd3:hover{
+    box-shadow: 10px 5px 20px #888888;
+}
+
+#pd4{
+    position: absolute;
+    text-align: center;
+    width: 400px; 
+    height: 500px;
+    border: 2px solid #333; 
+    padding: 1px; 
+    margin: 40px; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;  
+    
+}
+
+#pd4:hover{
+    box-shadow: 10px 5px 20px #888888;
+}
+
+#pd5{
+    position: absolute;
+    left: 930px;
+    text-align: center;
+    width: 400px; 
+    height: 500px;
+    border: 2px solid #333; 
+    padding: 1px; 
+    margin: 40px; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;  
+}
+
+#pd5:hover{
+    box-shadow: 10px 5px 20px #888888;
+}
+
+#pd6{
+    position: absolute;
+    left: 470px;
+    text-align: center;
+    width: 400px; 
+    height: 500px;
+    border: 2px solid #333; 
+    padding: 1px; 
+    margin: 40px; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;  
+}
+
+#pd6:hover{
+    box-shadow: 10px 5px 20px #888888;
+}
+
+
+
+/* Buttons++++++++++++++++++ */
+#pd1b{
+    
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+        
+        background: rgb(113, 255, 255);
+    }
+}
+
+
+
+#pd2b{
+    
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+        
+        background: rgb(113, 255, 255);
+    }
+}
+
+#pd3b{
+    
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+        
+        background: rgb(113, 255, 255);
+    }
+}
+
+#pd4b{
+    
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+        
+        background: rgb(113, 255, 255);
+    }
+}
+
+#pd5b{
+    
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+        
+        background: rgb(113, 255, 255);
+    }
+}
+
+#pd6b{
+    
+    background-color:white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+        
+        background: rgb(113, 255, 255);
+    }
+
+}
+
+#login{
+    cursor: pointer;
+    position: absolute;
+    top:40px;
+    left: 1300px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    border-style: solid;
+    transition: all 0.25s ease;
+    &:hover{
+        background-color: aqua;
+    }
+    
+}
+
+#signup{
+    cursor: pointer;
+    position: absolute;
+    top:40px;
+    left: 1220px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    border-style: solid;
+    transition: all 0.25s ease;
+    &:hover{
+        background-color: aqua;
+    }
+    
+}
+
+
+
+.contact-us{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 1600px;
+    left: 120px;
+    height: 500px;
+    width: 1200px;
+}
+
+#cusername{
+    position: absolute;
+    top: 160px;
+    left: 155px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+}
+
+#ctext{
+    position: absolute;
+    top: 220px;
+    left: 155px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 150px;
+    width: 850px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+
+}
+
+#csubmit{
+
+    position: absolute;
+    left: 555px;
+    top: 430px; 
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+}
+}
+
+#temp{
+
+    position: absolute;
+    left: 550px;
+    top: 2000px;
+    height: 100px;
+    width: 100px;
+
+}
+

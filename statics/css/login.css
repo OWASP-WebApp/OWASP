@@ -1,0 +1,85 @@
+body{
+    font-family: 'Futura', sans-serif;
+}
+
+.cadr{
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    height: 450px;
+    width: 400px;
+    transition: box-shadow 0.3s ease;
+    &:hover{
+        box-shadow: 1px 5px 10px #888888;
+    }
+}
+
+.title{
+    text-align: center;
+}
+
+.ptitle{
+   
+    position: absolute;
+    top: 60px;
+    left: 65px;
+}
+
+#username{
+
+    position: absolute;
+    top: 160px;
+    left: 65px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+}
+
+#password{
+
+    position: absolute;
+    top: 215px;
+    left: 65px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    outline: none;
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: rgb(199, 249, 249);
+    }
+}
+
+#submit{
+
+    position: absolute;
+    left: 156px;
+    top: 300px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+}
+}

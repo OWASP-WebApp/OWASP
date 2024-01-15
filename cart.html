@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statics/css/cart.css">
+    <title>Cart</title>
+</head>
+<body>
+    
+    <img id="pimage" src="statics/images/def.png">
+
+    <h1 id="pname">------------------</h1>
+
+    <form action="add.php" method="post">
+        <div id="info">
+            <h2 id="Price">Price: </h2><h3 id="pvalue">-----</h3>
+            <h2 id="Color">How much: </h2>
+            <select name="quantity" id="pcolor">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <input name="id" id="id" type="hidden" value="">
+            <h2 id="desc">Description: </h2><h5 id="dvalue">------------------------------------------------------------------------------<br>---------------------------------------------------------<br>------------------------------<br>---------</h5>
+
+        </div>
+        <button id="subm">Buy</button>
+        <div id="temp1"></div>
+    </form>
+
+
+</body>
+</html>

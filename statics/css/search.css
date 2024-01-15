@@ -1,0 +1,38 @@
+#search{
+    border-radius: 10px;
+    height: 10px;
+    width: 400px;
+    position: absolute;
+    left: 460px;
+    top: 10px;
+    outline: none;
+    border-color: black;
+    border-style:solid;
+    transition: all 0.3s ease;  
+    padding: 10px;
+    &:hover{
+        background-color: rgb(160, 255, 250);
+    }
+}
+
+#sbtn{
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    position: absolute;
+    left: 890px;
+    top: 12px;
+    border-color: black;
+    transition: box-shadow 0.3s ease;   
+}
+
+#pname{
+
+    position: absolute;
+
+    top: 350px;
+
+}
