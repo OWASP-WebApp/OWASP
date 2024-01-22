@@ -18,8 +18,9 @@ $password = $_POST['password'];
 
 $q = "select * from users where username = '" . $username . "';";
 $res = $conn->query($q);
+
 if($res->num_rows == 0){
-  die("This username does not exist");
+  header("Location: /message.html?message=This username does not exist&referer=/login.html");
 }
 
 while($rows = $res->fetch_assoc()){
@@ -30,7 +31,8 @@ while($rows = $res->fetch_assoc()){
     header("Location: /profile.html");
     die();
   }else{
-    echo "Invalid credentials";
+    header("Location: /message.html?message=Invalid credentials&referer=login.html");
+    die();
   }
 }
 

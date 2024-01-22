@@ -35,6 +35,16 @@
         <h1 id="text"></h1>
         <button id="redir">Go back</button>
     </center>
+    
+    <script>
 
+        var params = new URLSearchParams(window.location.search)
+        document.getElementById("text").innerHTML = params.get("message")
+
+        document.getElementById("redir").onclick = function(){
+            document.location = params.get("referer")
+        }
+
+    </script>
 </body>
 </html>
