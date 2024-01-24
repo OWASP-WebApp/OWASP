@@ -21,6 +21,7 @@ $res = $conn->query($q);
 
 if($res->num_rows == 0){
   header("Location: /message.html?message=This username does not exist&referer=/login.html");
+  die();
 }
 
 while($rows = $res->fetch_assoc()){
@@ -31,7 +32,7 @@ while($rows = $res->fetch_assoc()){
     header("Location: /profile.html");
     die();
   }else{
-    header("Location: /message.html?message=Invalid credentials&referer=login.html");
+    header("Location: /message.html?message=Invalid credentials&referer=/login.html");
     die();
   }
 }
