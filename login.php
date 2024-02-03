@@ -28,7 +28,6 @@ while($rows = $res->fetch_assoc()){
   if($rows['password'] == $password){
     $_SESSION['loggedin'] = true;
     $_SESSION['username'] = $username;
-    $_SESSION['id'] = $rows['id'];
     header("Location: /profile.html");
     die();
   }else{

@@ -14,10 +14,11 @@ body{
 
     position: absolute;
     left: 250px;
+    top: 8000;
     border-color: black;
     border-radius: 10px;
     border-style: solid;
-    height: 700px;
+    height: 650px;
     width: 900px;
 }
 
@@ -118,8 +119,8 @@ body{
 #sub{
 
     position: absolute;
-    left: 400px;
-    top: 540px;
+    left: 325px;
+    top: 360px;
     border-radius: 10px;
     height: 40px;
     width: 90px;
@@ -131,5 +132,67 @@ body{
     &:hover{
         background-color: aqua;
         cursor: pointer;  
+    }
+
 }
+
+#sub1{
+
+    position: absolute;
+    left: 325px;
+    top: 63px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+    }
+
 }
+
+#sub2{
+
+    position: absolute;
+    left: 325px;
+    top: 194px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: aqua;
+        cursor: pointer;  
+    }
+
+}
+
+#next{
+
+    position: absolute;
+    left: 350px;
+    top: 550px;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: all 0.3s ease; 
+    &:hover{
+        background-color: rgb(0, 255, 68);
+        cursor: pointer;  
+    }
+
+}
+

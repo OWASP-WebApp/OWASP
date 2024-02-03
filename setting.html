@@ -8,10 +8,11 @@
 </head>
 <body>
     
-    <div id="backg">
+    <div id="backg2">
+        <div id="backg">
 
-        <h1 id="title">Update<br>your<br>information!</h1>
-        <form action="update.php" method="post">
+            <h1 id="title">Update<br>your<br>information!</h1>
+        
             <h4 id="fname">Change your full name</h4>
             <input id="fullname" name="fullname" type="text" placeholder="Full name...">
 
@@ -23,10 +24,14 @@
             <input id="password" name="password" type="password" placeholder="Password...">
 
             <button id="sub">Update</button>
+            <button id="sub1">Update</button>
+            <button id="sub2">Update</button>
+            <button id="next" onclick="document.location = '/profile.html'">Done</button>
 
-        </form>
-
+        </div>
     </div>
+
+    <script src="statics/js/setting.js"></script>
 
 
 </body>

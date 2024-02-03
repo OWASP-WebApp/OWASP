@@ -17,16 +17,17 @@ $fullname = $_POST["fullname"];
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-$q2 =  "select * from users where username = '" . $username . "';";
-$res = $conn->query($q2);
+$checkUsernameQuery =  "select * from users where username = '" . $username . "';";
+$res = $conn->query($checkUsernameQuery);
 
 if($res->num_rows == 0){
 
-  $q = "insert into users() values(NULL,'" . $fullname . "','" . $username . "','" . $password . "');";
-  $res = $conn->query($q);
+  $insertQuery = "insert into users() values(NULL,'" . $fullname . "','" . $username . "','" . $password . "');";
+  $res = $conn->query($insertQuery);
   $_SESSION['loggedin'] = true;
   $_SESSION['username'] = $username;
   header("Location: /profile.html");
+  die();
 
 }else{
   header("Location: /message.html?message=This username already exist&referer=/signup.html");

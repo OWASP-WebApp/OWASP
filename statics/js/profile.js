@@ -8,7 +8,6 @@ http.onreadystatechange = function(){
         var data = http.response
         var data = JSON.parse(data)
         
-
         document.getElementById("username").innerHTML = data.username
     }
 }
