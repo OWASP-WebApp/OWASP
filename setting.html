@@ -30,6 +30,24 @@
 
         </div>
     </div>
+    <script>
+
+        var http = new XMLHttpRequest();
+        http.open("GET", "/check.php?action=isLogin")
+        http.withCredentials = true
+        http.send()
+
+        http.onreadystatechange = function(){
+            if (http.readyState == 4 && http.status == 200){
+                var data = JSON.parse(http.response)
+                if(data.status != true){
+                    document.location = '/login.html'
+
+                }
+            }
+        }
+
+    </script>
 
     <script src="statics/js/setting.js"></script>
 

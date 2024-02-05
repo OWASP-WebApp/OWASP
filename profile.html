@@ -13,7 +13,7 @@
         <button id="menu">Menu</button>
         <button id="settingbtn" onclick="document.location = '/setting.html'">Setting</button>
         <button id="main-page" onclick="document.location = '/'">Main-Page</button>
-        <button id="logout">Logout</button>
+        <button id="logout" onclick="document.location = '/logout.php'">Logout</button>
 
         <center><br><br><br><br><br><br><br><br><br><br><br><h1 id="username">------------------</h1></center>
     </div>
@@ -31,6 +31,24 @@
           </table>
     </div>
 
+    <script>
+
+        var http = new XMLHttpRequest();
+        http.open("GET", "/check.php?action=isLogin")
+        http.withCredentials = true
+        http.send()
+
+        http.onreadystatechange = function(){
+            if (http.readyState == 4 && http.status == 200){
+                var data = JSON.parse(http.response)
+                if(data.status != true){
+                    document.location = '/login.html'
+
+                }
+            }
+        }
+
+    </script>
 
     <script src="statics/js/profile.js"></script>
     <script src="statics/js/sum.js"></script>
