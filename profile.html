@@ -32,23 +32,28 @@
     </div>
 
     <script>
-
-        var http = new XMLHttpRequest();
-        http.open("GET", "/check.php?action=isLogin")
-        http.withCredentials = true
-        http.send()
-
-        http.onreadystatechange = function(){
-            if (http.readyState == 4 && http.status == 200){
-                var data = JSON.parse(http.response)
-                if(data.status != true){
-                    document.location = '/login.html'
-
+        window.onload = function() {
+            var http = new XMLHttpRequest();
+    
+            http.onreadystatechange = function(){
+                if (http.readyState == 4){
+                    if (http.status == 200){
+                        var data = JSON.parse(http.responseText);
+                        if(data.status !== true){
+                            window.location.href = '/login.html';
+                        }
+                    } else {
+                        console.error('Error occurred: ' + http.status);
+                    }
                 }
-            }
-        }
-
+            };
+    
+            http.open("GET", "/check.php?action=isLogin", true);
+            http.withCredentials = true;
+            http.send();
+        };
     </script>
+    
 
     <script src="statics/js/profile.js"></script>
     <script src="statics/js/sum.js"></script>

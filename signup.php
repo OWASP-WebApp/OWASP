@@ -17,6 +17,11 @@ $fullname = $_POST["fullname"];
 $username = $_POST["username"];
 $password = $_POST["password"];
 
+if($fullname == "" || $fullname == " " || $username == "" || $username == " "){
+  header("Location: /message.html?message=Please enter valid inputs&referer=/signup.html");
+  die();
+}
+
 $checkUsernameQuery =  "select * from users where username = '" . $username . "';";
 $res = $conn->query($checkUsernameQuery);
 
